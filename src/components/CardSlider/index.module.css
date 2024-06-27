@@ -1,0 +1,45 @@
+.slider {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+}
+
+.slideTrack {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 33.33%; /* Adjust width as needed */
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card p {
+  margin: 10px 0 0;
+}

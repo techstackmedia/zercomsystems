@@ -1,0 +1,63 @@
+.container {
+  /* background-color: #000; */
+  color: #000;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.description,
+.disclaimer {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.stages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.stage {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.stage h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.stage ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.stage li {
+  margin-bottom: 5px;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.joinButton {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.joinButton:hover {
+  background-color: #ccc;
+}

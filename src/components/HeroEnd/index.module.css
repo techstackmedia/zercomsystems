@@ -1,0 +1,46 @@
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('/path/to/your/image.png') no-repeat center center;
+  background-size: cover;
+  color: #000;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sincButton,
+.applyButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sincButton {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.sincButton:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.applyButton {
+  background-color: #fff;
+  color: #000;
+}
+
+.applyButton:hover {
+  background-color: #f0f0f0;
+}

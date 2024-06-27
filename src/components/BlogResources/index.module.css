@@ -1,0 +1,90 @@
+.container {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resources {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.resourceCard {
+  position: relative;
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playButton {
+  font-size: 2rem;
+  color: red;
+  background: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.duration {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.articleContent {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.articleTitle {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.articleDescription {
+  font-size: 0.9rem;
+}
+
+.resourceTitle {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.moreResources {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.moreResourcesLink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.moreResourcesLink:hover {
+  text-decoration: underline;
+}

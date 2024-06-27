@@ -1,0 +1,43 @@
+/* components/AreasOfFocus.module.css */
+.areasOfFocus {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.areasOfFocus h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.focusItem {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.focusItem h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.focusItem p {
+  font-size: 18px;
+}
