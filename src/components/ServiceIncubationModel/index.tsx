@@ -11,17 +11,17 @@ const ServiceIncubationModel: React.FC = () => {
       </p>
       <h3>Hypothesis</h3>
       <p className={styles.hypothesisDescription}>
-        Just a few reasons we know it's time for this model within the ecosystem
+        Just a few reasons we know it&quot;s time for this model within the ecosystem
       </p>
       <div className={styles.grid}>
         <div className={styles.hypothesisItem}>
-          <p>Most early-stage companies and pre-product startups cannot afford professional services especially those who don't have family and friends' network that can support</p>
+          <p>Most early-stage companies and pre-product startups cannot afford professional services especially those who don&quot;t have family and friends&quot; network that can support</p>
         </div>
         <div className={styles.hypothesisItem}>
           <p>If startups can seed 5-10% in equity to incubators for $20k to $200k funding most times, they will be willing to seed 10% equity for a $25k service investment</p>
         </div>
         <div className={styles.hypothesisItem}>
-          <p>Young professionals who don't have a lot of money to invest nor an accredited investors will have opportunities to take equity at the early stage of their career, usually been the first to invest and almost guaranteed of return</p>
+          <p>Young professionals who don&quot;t have a lot of money to invest nor an accredited investors will have opportunities to take equity at the early stage of their career, usually been the first to invest and almost guaranteed of return</p>
         </div>
       </div>
       <h3>Case Study</h3>
