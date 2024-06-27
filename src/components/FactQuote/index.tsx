@@ -5,9 +5,9 @@ const FactQuote: React.FC = () => {
   return (
     <div className={styles.factQuote}>
       <p className={styles.quote}>
-      &ldquo;Nigeria and Africa has a massive network effect that have not be fully utilized. With
+      &quot;Nigeria and Africa has a massive network effect that have not be fully utilized. With
         Nigerians/Africans in every country and territory of the world, we can scale an African
-        business to 100+ countries in few weeks&ldquo;
+        business to 100+ countries in few weeks&quot;
       </p>
       <p className={styles.author}>
         Daniel Izeghs Oratokhai

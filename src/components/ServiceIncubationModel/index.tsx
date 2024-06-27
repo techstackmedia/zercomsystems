@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from './index.module.css';
 import Link from 'next/link';
+import triangleImg from '../../../public/assets/triangle.png'
+import squareImg from '../../../public/assets/square.png'
+import pentagonImg from '../../../public/assets/pentagon.png'
+import Image from 'next/image';
 
 const ServiceIncubationModel: React.FC = () => {
   return (
@@ -15,12 +19,15 @@ const ServiceIncubationModel: React.FC = () => {
       </p>
       <div className={styles.grid}>
         <div className={styles.hypothesisItem}>
+         <Image src={triangleImg} alt='triangle icon' />
           <p>Most early-stage companies and pre-product startups cannot afford professional services especially those who don&apos;t have family and friends&apos; network that can support</p>
         </div>
         <div className={styles.hypothesisItem}>
+        <Image src={squareImg} alt='square icon' />
           <p>If startups can seed 5-10% in equity to incubators for $20k to $200k funding most times, they will be willing to seed 10% equity for a $25k service investment</p>
         </div>
         <div className={styles.hypothesisItem}>
+        <Image src={pentagonImg} alt='pentagon icon' />
           <p>Young professionals who don&apos;t have a lot of money to invest nor an accredited investors will have opportunities to take equity at the early stage of their career, usually been the first to invest and almost guaranteed of return</p>
         </div>
       </div>

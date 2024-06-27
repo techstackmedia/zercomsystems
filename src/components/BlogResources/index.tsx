@@ -1,5 +1,11 @@
 import React from 'react';
 import styles from './index.module.css';
+import Image from 'next/image';
+import firstBlogDemoVideoImg from '../../../public/assets/firstBlogDemoVideo.png';
+import secondBlogDemoVideoImg from '../../../public/assets/secondBlogDemoVideo.png';
+import annualReportBookImg from '../../../public/assets/annualReportBook.png';
+import createBusinessBookImg from '../../../public/assets/createBusinessBook.png';
+import peopleBusinessImg from '../../../public/assets/peopleBusiness.png';
 
 const BlogsResources: React.FC = () => {
   const resources = [
@@ -7,37 +13,52 @@ const BlogsResources: React.FC = () => {
       type: 'video',
       title: 'Top Ten Most Powerful Startup',
       duration: '2 Min',
-      imageUrl: '/images/video1.png',
+      imageUrl: firstBlogDemoVideoImg,
+      width: 378,
+      height: 235,
     },
     {
       type: 'video',
       title: 'Top Ten Most Powerful Startup',
       duration: '2 Min',
-      imageUrl: '/images/video2.png',
+      imageUrl: secondBlogDemoVideoImg,
+      width: 378,
+      height: 235,
     },
     {
       type: 'video',
       title: 'Top Ten Most Powerful Startup',
       duration: '2 Min',
-      imageUrl: '/images/video3.png',
+      imageUrl: secondBlogDemoVideoImg,
+      width: 378,
+      height: 235,
     },
     {
       type: 'article',
       title: 'Top Ten Most Powerful Startup',
-      description: 'Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup.',
-      imageUrl: '/images/article1.png',
+      description:
+        'Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup.',
+      imageUrl: annualReportBookImg,
+      width: 85,
+      height: 79,
     },
     {
       type: 'article',
       title: 'Top Ten Most Powerful Startup',
-      description: 'Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup.',
-      imageUrl: '/images/article2.png',
+      description:
+        'Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup.',
+      imageUrl: createBusinessBookImg,
+      width: 85,
+      height: 79,
     },
     {
       type: 'article',
       title: 'Top Ten Most Powerful Startup',
-      description: 'Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup.',
-      imageUrl: '/images/article3.png',
+      description:
+        'Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup.',
+      imageUrl: peopleBusinessImg,
+      width: 85,
+      height: 79,
     },
   ];
 
@@ -49,18 +70,32 @@ const BlogsResources: React.FC = () => {
           <div key={index} className={styles.resourceCard}>
             {resource.type === 'video' ? (
               <>
-                <img src={resource.imageUrl} alt={resource.title} className={styles.image} />
-                <div className={styles.overlay}>
+                <Image
+                  src={resource.imageUrl}
+                  alt={resource.title}
+                  className={styles.image}
+                  width={resource.width}
+                  height={resource.height}
+                />
+                {/* <div className={styles.overlay}>
                   <div className={styles.playButton}>▶</div>
                   <p className={styles.duration}>{resource.duration}</p>
-                </div>
+                </div> */}
               </>
             ) : (
               <>
-                <img src={resource.imageUrl} alt={resource.title} className={styles.image} />
+                <Image
+                  src={resource.imageUrl}
+                  alt={resource.title}
+                  className={styles.image}
+                  width={resource.width}
+                  height={resource.height}
+                />
                 <div className={styles.articleContent}>
                   <h2 className={styles.articleTitle}>{resource.title}</h2>
-                  <p className={styles.articleDescription}>{resource.description}</p>
+                  <p className={styles.articleDescription}>
+                    {resource.description}
+                  </p>
                 </div>
               </>
             )}
@@ -69,7 +104,9 @@ const BlogsResources: React.FC = () => {
         ))}
       </div>
       <div className={styles.moreResources}>
-        <a href="#" className={styles.moreResourcesLink}>See More Blogs & Resources →</a>
+        <a href='#' className={styles.moreResourcesLink}>
+          See More Blogs & Resources →
+        </a>
       </div>
     </div>
   );

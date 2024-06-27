@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './index.module.css';
+import heroImg from '../../../public/assets/hero.png'
+import Image from 'next/image';
 
 const Hero: React.FC = () => {
   return (
@@ -17,7 +19,7 @@ const Hero: React.FC = () => {
         </Link>
       </div>
       <div className={styles.imageSection}>
-        <img src='/path/to/your/image.png' alt='Hero Image' />
+        <Image src={heroImg} alt='Hero Image' />
       </div>
     </div>
   );
