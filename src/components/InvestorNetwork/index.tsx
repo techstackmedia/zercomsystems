@@ -12,6 +12,7 @@ const InvestorsNetwork: React.FC = () => {
       <p className={styles.disclaimer}>
         Disclaimer: These deal flows is a statement of our projections and may differ from stage to stage and from venture to venture and the guarantee is for deal 1, usually the first to invest.
       </p>
+      <div className={styles.sections}>
       <div className={styles.section}>
         <h2>Micro Angel Investors & Service Incubators (Invest from $500 & above)</h2>
         <div className={styles.stages}>
@@ -45,7 +46,7 @@ const InvestorsNetwork: React.FC = () => {
           <div className={styles.stage}>
             <h3>Traction Stage</h3>
             <ul>
-              <li>$125k worth of service for 8% Equity</li>
+              <li>$125k worth of service for 5% Equity</li>
               <li>Expected Revenue at This Stage: $5k+/mth</li>
               <li>Duration of Raise: 6-12mths</li>
               <li>Who Can Invest: Media, Influencers, Celebrity, Platform Owners</li>
@@ -83,10 +84,23 @@ const InvestorsNetwork: React.FC = () => {
               <li>Who Can Invest: The Public</li>
             </ul>
           </div>
+          <div className={styles.stage}>
+            <h3>IPO Stage</h3>
+            <ul>
+              <li>$15B for 20% Equity</li>
+              <li>Expected Revenue at This Stage: $1M+/mth</li>
+              <li>Duration of Raise: 18-36mths</li>
+              <li>Who Can Invest: The Public</li>
+            </ul>
+          </div>
         </div>
       </div>
+      </div>
       <div className={styles.cta}>
-        <button className={styles.joinButton}>Join SINC Network</button>
+        <div className={styles.ctaText}>
+          <h3>Work with Service Incubators (SINC) to expedite your time to market</h3>
+          <button className={styles.joinButton}>Join SINC Network</button>
+        </div>
       </div>
     </div>
   );

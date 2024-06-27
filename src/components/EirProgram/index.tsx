@@ -45,6 +45,62 @@ const steps: Step[] = [
     width: 60,
     height: 60,
   },
+  {
+    icon: applicationIconImg,
+    title: 'Application and Selection',
+    description: 'Begin your journey by completing our straightforward application form. Share insights into your entrepreneurial background, expertise, and your vision for supporting the success of our portfolio companies. Our dedicated selection committee, comprised of key stakeholders at SINC Partners, will carefully review your application.',
+    width: 60,
+    height: 60,
+  },
+  {
+    icon: alignmentIconImg,
+    title: 'Alignment Meeting and Proposal Submission',
+    description: 'If your application stands out, we\'ll invite you to an alignment meeting. This is an opportunity to discuss the goals of our EIR program and explore how your expertise aligns with the needs of our portfolio companies. Following the alignment meeting, submit a formal proposal outlining your intended contributions and how you envision adding significant value to our portfolio companies.',
+    width: 60,
+    height: 60,
+  },
+  {
+    icon: negotiationIconImg,
+    title: 'Negotiation and Agreement',
+    description: 'Upon successful alignment and proposal review, we\'ll engage in discussions to finalize the terms of your EIR role. This includes the duration, expectations, and any compensation or equity arrangements. Once terms are agreed upon, we\'ll draft a formal agreement outlining the specifics of your EIR engagement, including reporting structures, responsibilities, and the support/resources provided by SINC Partners.',
+    width: 60,
+    height: 60,
+  },
+  {
+    icon: onboardingIconImg,
+    title: 'Onboarding',
+    description: 'Congratulations! Once the agreement is finalized, you will undergo an onboarding process to familiarize yourself with our portfolio companies and key team members. Facilitated by SINC Partners, this integration process ensures you are well-prepared to collaborate effectively and make a meaningful impact from day one.',
+    width: 60,
+    height: 60,
+  },
+  {
+    icon: applicationIconImg,
+    title: 'Application and Selection',
+    description: 'Begin your journey by completing our straightforward application form. Share insights into your entrepreneurial background, expertise, and your vision for supporting the success of our portfolio companies. Our dedicated selection committee, comprised of key stakeholders at SINC Partners, will carefully review your application.',
+    width: 60,
+    height: 60,
+  },
+  {
+    icon: alignmentIconImg,
+    title: 'Alignment Meeting and Proposal Submission',
+    description: 'If your application stands out, we\'ll invite you to an alignment meeting. This is an opportunity to discuss the goals of our EIR program and explore how your expertise aligns with the needs of our portfolio companies. Following the alignment meeting, submit a formal proposal outlining your intended contributions and how you envision adding significant value to our portfolio companies.',
+    width: 60,
+    height: 60,
+  },
+  {
+    icon: negotiationIconImg,
+    title: 'Negotiation and Agreement',
+    description: 'Upon successful alignment and proposal review, we\'ll engage in discussions to finalize the terms of your EIR role. This includes the duration, expectations, and any compensation or equity arrangements. Once terms are agreed upon, we\'ll draft a formal agreement outlining the specifics of your EIR engagement, including reporting structures, responsibilities, and the support/resources provided by SINC Partners.',
+    width: 60,
+    height: 60,
+  },
+  {
+    icon: onboardingIconImg,
+    title: 'Onboarding',
+    description: 'Congratulations! Once the agreement is finalized, you will undergo an onboarding process to familiarize yourself with our portfolio companies and key team members. Facilitated by SINC Partners, this integration process ensures you are well-prepared to collaborate effectively and make a meaningful impact from day one.',
+    width: 60,
+    height: 60,
+  },
 ];
 
 const EirProgram: React.FC = () => {

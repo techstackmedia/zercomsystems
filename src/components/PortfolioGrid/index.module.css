@@ -1,5 +1,7 @@
 .portfolio-grid {
   text-align: center;
+  max-width: 85%;
+  margin: 0 auto;
 }
 .grid {
   display: grid;
@@ -16,8 +18,9 @@
 .view-all {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+  text-decoration: underline;
   border: none;
   cursor: pointer;
 }

@@ -1,14 +1,30 @@
 import React from 'react';
-import styles from './index.module.css'
+import styles from './index.module.css';
+import Image, { StaticImageData } from 'next/image';
+import foundSchoolImg from '../../../public/assets/foundSchool.png';
 
 type Company = {
   name: string;
-  logoUrl: string;
+  logoUrl: StaticImageData;
 };
 
 const companies: Company[] = [
-  { name: 'kofoundme', logoUrl: '/logos/kofoundme.png' },
-  { name: 'Founders School', logoUrl: '/logos/founders-school.png' },
+  { name: 'kofoundme', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
+  { name: 'Founders School', logoUrl: foundSchoolImg },
   // Add the rest of the companies here
   // { name: 'Company Name', logoUrl: '/path/to/logo.png' },
 ];
@@ -21,7 +37,7 @@ const PortfolioGrid: React.FC = () => {
       <div className={styles.grid}>
         {companies.map((company, index) => (
           <div key={index} className={styles.company}>
-            <img src={company.logoUrl} alt={company.name} />
+            <Image src={company.logoUrl} alt={company.name} />
           </div>
         ))}
       </div>
