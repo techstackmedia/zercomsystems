@@ -13,7 +13,6 @@ import InvestorsNetwork from "@/components/InvestorNetwork";
 import Navbar from "@/components/Navbar";
 import PortfolioGrid from "@/components/PortfolioGrid";
 import ServiceIncubationModel from "@/components/ServiceIncubationModel";
-import type { AppProps } from 'next/app';
 
 function MyApp() {
   return (

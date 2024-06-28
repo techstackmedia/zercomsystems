@@ -31,7 +31,7 @@ const companies: Company[] = [
 
 const PortfolioGrid: React.FC = () => {
   return (
-    <div className={styles['portfolio-grid']}>
+    <section className={styles['portfolio-grid']}>
       <h2>Our Studio Portfolio</h2>
       <p>Our 2024 Service Incubator Portfolio Companies</p>
       <div className={styles.grid}>
@@ -42,7 +42,7 @@ const PortfolioGrid: React.FC = () => {
         ))}
       </div>
       <button className={styles['view-all']}>View All Companies</button>
-    </div>
+    </section>
   );
 };
 

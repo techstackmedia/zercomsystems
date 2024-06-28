@@ -6,7 +6,7 @@ import secondFeatureImg from '../../../public/assets/firstFeature.png';
 
 const CardSlider = () => {
   return (
-    <div className={styles.slider}>
+    <section className={styles.slider}>
       <div className={styles.slideTrack}>
         <div className={styles.slide}>
           <div className={styles.card}>
@@ -76,7 +76,7 @@ const CardSlider = () => {
         </div>
         {/* Add more slides as needed */}
       </div>
-    </div>
+    </section>
   );
 };
 

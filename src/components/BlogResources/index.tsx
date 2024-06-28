@@ -63,7 +63,7 @@ const BlogsResources: React.FC = () => {
   ];
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h1 className={styles.title}>Blogs & Resources</h1>
       <div className={styles.resources}>
         {resources.map((resource, index) => (
@@ -108,7 +108,7 @@ const BlogsResources: React.FC = () => {
           See More Blogs & Resources →
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

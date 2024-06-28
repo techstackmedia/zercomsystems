@@ -31,7 +31,7 @@ const steps: Step[] = [
 
 const CofoundSteps: React.FC = () => {
   return (
-    <div className={styles["cofound-steps"]}>
+    <section className={styles["cofound-steps"]}>
       <h2>Co-found With Us</h2>
       <p>We seek to collaborate with visionary individuals who are solving similar problems of helping entrepreneurs succeed</p>
       <div className={styles.steps}>
@@ -45,7 +45,7 @@ const CofoundSteps: React.FC = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -117,7 +117,7 @@ const EirProgram: React.FC = () => {
   };
 
   return (
-    <div className={styles["eir-program"]}>
+    <section className={styles["eir-program"]}>
       <h2>Join Our Entrepreneur In Residence (EIR) Program</h2>
       <p>Our EIR program is our structured 3 months un-paid program designed to help us have a pipeline of business and technical cofounders who can run the venture of choice as CEO & CTO owning 20% equity each.</p>
       <div className={styles["steps-container"]}>
@@ -149,7 +149,7 @@ const EirProgram: React.FC = () => {
           &#8250;
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

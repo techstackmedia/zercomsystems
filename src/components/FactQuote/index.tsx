@@ -3,7 +3,7 @@ import styles from './index.module.css';
 
 const FactQuote: React.FC = () => {
   return (
-    <div className={styles.factQuote}>
+    <section className={styles.factQuote}>
       <p className={styles.quote}>
       &quot;Nigeria and Africa has a massive network effect that have not be fully utilized. With
         Nigerians/Africans in every country and territory of the world, we can scale an African
@@ -15,7 +15,7 @@ const FactQuote: React.FC = () => {
       <p className={styles.position}>
         Managing Partner at SINC Partners Ltd
       </p>
-    </div>
+    </section>
   );
 };
 

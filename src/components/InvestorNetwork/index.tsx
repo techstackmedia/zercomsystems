@@ -3,7 +3,7 @@ import styles from './index.module.css';
 
 const InvestorsNetwork: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h1 className={styles.title}>SINC Investors Network</h1>
       <p className={styles.description}>
         Our deals are structured not just to take in investments but to onboard owners passionate about our solutions. 
@@ -102,7 +102,7 @@ const InvestorsNetwork: React.FC = () => {
           <button className={styles.joinButton}>Join SINC Network</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

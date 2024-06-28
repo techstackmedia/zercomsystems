@@ -47,7 +47,7 @@ const EquityJobs: React.FC = () => {
   ];
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h1 className={styles.title}>Equity Jobs</h1>
       <p className={styles.description}>
         See companies and startups offering equity or a mix of cash and equity for very important positions in their company.
@@ -70,7 +70,7 @@ const EquityJobs: React.FC = () => {
       <div className={styles.moreJobs}>
         <Link href="#" className={styles.moreJobsLink}>See More Equity Jobs →</Link>
       </div>
-    </div>
+    </section>
   );
 };
 

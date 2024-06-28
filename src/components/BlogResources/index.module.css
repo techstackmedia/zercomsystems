@@ -1,5 +1,4 @@
 .container {
-  background-color: #fff;
   color: #000;
   padding: 20px;
 }
@@ -58,10 +57,10 @@
 }
 
 .articleContent {
-  background-color: #fff;
   color: #000;
   padding: 10px;
   border-radius: 8px;
+  width: calc(378px - 85px);
 }
 
 .articleTitle {
