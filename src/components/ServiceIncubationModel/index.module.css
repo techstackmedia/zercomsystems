@@ -1,6 +1,5 @@
-/* components/ServiceIncubationModel.module.css */
 .serviceIncubationModel {
-  text-align: center;
+  /* text-align: center; */
   padding: 40px;
 }
 
@@ -8,12 +7,16 @@
   font-size: 36px;
   color: #333;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .description {
   font-size: 18px;
   color: #666;
   margin-bottom: 40px;
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
 }
 
 .hypothesisDescription {
