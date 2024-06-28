@@ -99,7 +99,7 @@ const BlogsResources: React.FC = () => {
                 </div>
               </>
             )}
-            <p className={styles.resourceTitle}>{resource.title}</p>
+            {/* <p className={styles.resourceTitle}>{resource.title}</p> */}
           </div>
         ))}
       </div>
