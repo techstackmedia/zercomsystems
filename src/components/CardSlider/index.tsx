@@ -15,6 +15,8 @@ const CardSlider = () => {
               alt='Card 1'
               width={622}
               height={393}
+              priority
+              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -26,6 +28,8 @@ const CardSlider = () => {
               alt='Card 2'
               width={622}
               height={393}
+              priority
+              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -37,6 +41,8 @@ const CardSlider = () => {
               alt='Card 2'
               width={622}
               height={393}
+              priority
+              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -48,6 +54,8 @@ const CardSlider = () => {
               alt='Card 2'
               width={622}
               height={393}
+              priority
+              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -59,6 +67,8 @@ const CardSlider = () => {
               alt='Card 2'
               width={622}
               height={393}
+              priority
+              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -70,6 +80,8 @@ const CardSlider = () => {
               alt='Card 2'
               width={622}
               height={393}
+              priority
+              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>

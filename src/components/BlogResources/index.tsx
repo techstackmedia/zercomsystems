@@ -76,6 +76,7 @@ const BlogsResources: React.FC = () => {
                   className={styles.image}
                   width={resource.width}
                   height={resource.height}
+                  priority
                 />
                 {/* <div className={styles.overlay}>
                   <div className={styles.playButton}>▶</div>
@@ -90,6 +91,7 @@ const BlogsResources: React.FC = () => {
                   className={styles.image}
                   width={resource.width}
                   height={resource.height}
+                  priority
                 />
                 <div className={styles.articleContent}>
                   <h2 className={styles.articleTitle}>{resource.title}</h2>

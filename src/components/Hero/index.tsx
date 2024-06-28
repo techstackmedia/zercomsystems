@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './index.module.css';
-import heroImg from '../../../public/assets/hero.png'
 import Image from 'next/image';
+import heroImg from '../../../public/assets/hero.png';
 
 const Hero: React.FC = () => {
   return (
@@ -19,7 +19,14 @@ const Hero: React.FC = () => {
         </Link>
       </div>
       <div className={styles.imageSection}>
-        <Image src={heroImg} alt='Hero Image' />
+        <Image 
+          src={heroImg} 
+          alt='Hero Image' 
+          width={703} 
+          height={590} 
+          priority 
+          style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
+        />
       </div>
     </div>
   );

@@ -37,6 +37,7 @@
 
 .card img {
   max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
   border-radius: 10px 10px 0 0;
 }
 

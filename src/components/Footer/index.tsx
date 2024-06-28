@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './index.module.css';
 import Link from 'next/link';
+import facebookIconImg from '../../../public/assets/facebookIcon.png'
+import Image from 'next/image';
+import whatsappImg from '../../../public/assets/whatsapp.png'
 
 const Footer = () => {
   return (
@@ -80,7 +83,7 @@ const Footer = () => {
           <p>Lagos, Nigeria</p>
           <p>Philadelphia, USA</p>
           <div className={styles.trustedBusiness}>
-            <img src="/path/to/accredited-business.png" alt="Accredited Business A+" />
+            <Image src={whatsappImg} alt="Accredited Business A+" width={39} height={40} />
             <button>Chat with Us</button>
           </div>
         </div>
@@ -94,11 +97,11 @@ const Footer = () => {
         </div>
         <p>Web In Nigeria 🇳🇬</p>
         <div className={styles.socialMedia}>
-          <Link href="#"><img src="/path/to/facebook-icon.png" alt="Facebook" /></Link>
-          <Link href="#"><img src="/path/to/twitter-icon.png" alt="Twitter" /></Link>
-          <Link href="#"><img src="/path/to/instagram-icon.png" alt="Instagram" /></Link>
-          <Link href="#"><img src="/path/to/linkedin-icon.png" alt="LinkedIn" /></Link>
-          <Link href="#"><img src="/path/to/youtube-icon.png" alt="YouTube" /></Link>
+          <Link href="#"><Image src={facebookIconImg} alt="Facebook" width={20.38} height={20.28} priority /></Link>
+          <Link href="#"><Image src={facebookIconImg} alt="Twitter" width={20.38} height={20.28} priority /></Link>
+          <Link href="#"><Image src={facebookIconImg} alt="Instagram"width={20.38} height={20.28} priority  /></Link>
+          <Link href="#"><Image src={facebookIconImg} alt="LinkedIn" width={20.38} height={20.28} priority /></Link>
+          <Link href="#"><Image src={facebookIconImg} alt="YouTube" width={20.38} height={20.28} priority /></Link>
         </div>
       </div>
     </footer>

@@ -38,6 +38,7 @@
 }
 
 .imageSection img {
-  width: 100%;
+  width: 100%; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 10px;
 }

@@ -133,7 +133,7 @@ const EirProgram: React.FC = () => {
           {steps.map((step, index) => (
             <div key={index} className={styles.step}>
               <div className={styles["step-icon"]}>
-                <Image src={step.icon} alt={step.title} width={step.width} height={step.height} />
+                <Image src={step.icon} alt={step.title} width={step.width} height={step.height} priority/>
               </div>
               <h3>{step.title}</h3>
               <p>{step.description}</p>

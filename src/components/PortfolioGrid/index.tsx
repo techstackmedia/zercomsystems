@@ -37,7 +37,7 @@ const PortfolioGrid: React.FC = () => {
       <div className={styles.grid}>
         {companies.map((company, index) => (
           <div key={index} className={styles.company}>
-            <Image src={company.logoUrl} alt={company.name} />
+            <Image src={company.logoUrl} alt={company.name} priority />
           </div>
         ))}
       </div>

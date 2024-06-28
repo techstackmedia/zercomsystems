@@ -19,15 +19,15 @@ const ServiceIncubationModel: React.FC = () => {
       </p>
       <div className={styles.grid}>
         <div className={styles.hypothesisItem}>
-         <Image src={triangleImg} alt='triangle icon' />
+         <Image src={triangleImg} alt='triangle icon' priority />
           <p>Most early-stage companies and pre-product startups cannot afford professional services especially those who don&apos;t have family and friends&apos; network that can support</p>
         </div>
         <div className={styles.hypothesisItem}>
-        <Image src={squareImg} alt='square icon' />
+        <Image src={squareImg} alt='square icon' priority />
           <p>If startups can seed 5-10% in equity to incubators for $20k to $200k funding most times, they will be willing to seed 10% equity for a $25k service investment</p>
         </div>
         <div className={styles.hypothesisItem}>
-        <Image src={pentagonImg} alt='pentagon icon' />
+        <Image src={pentagonImg} alt='pentagon icon' priority/>
           <p>Young professionals who don&apos;t have a lot of money to invest nor an accredited investors will have opportunities to take equity at the early stage of their career, usually been the first to invest and almost guaranteed of return</p>
         </div>
       </div>
