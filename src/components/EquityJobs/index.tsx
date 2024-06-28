@@ -4,7 +4,7 @@ import Link from 'next/link';
 import slimakeLogo from '../../../public/assets/skimake.png'
 import kreecaLogo from '../../../public/assets/kreeca.png'
 import krowdback from '../../../public/assets/krowdback.png'
-import wettaa from '../../../public/assets/Wettaa.png'
+import wettaa from '../../../public/assets/wettaa.png'
 import Image from 'next/image';
 
 const EquityJobs: React.FC = () => {
