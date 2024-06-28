@@ -28,19 +28,12 @@
 }
 
 .sincButton {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #fff;
-}
-
-.sincButton:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
 }
 
 .applyButton {
-  background-color: #fff;
-  color: #000;
-}
-
-.applyButton:hover {
-  background-color: #f0f0f0;
+  background-color: #000;
+  color: #fff;
 }
