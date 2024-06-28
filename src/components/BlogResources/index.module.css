@@ -83,8 +83,9 @@
 }
 
 .moreResourcesLink {
-  color: #fff;
+  color: #000;
   text-decoration: none;
+  text-decoration: underline;
 }
 
 .moreResourcesLink:hover {

@@ -16,7 +16,7 @@ const CardSlider = () => {
               width={622}
               height={393}
               priority
-              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
+              style={{ width: '100%', height: 'auto' }}
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -29,7 +29,7 @@ const CardSlider = () => {
               width={622}
               height={393}
               priority
-              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
+              style={{ width: '100%', height: 'auto' }}
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -42,7 +42,7 @@ const CardSlider = () => {
               width={622}
               height={393}
               priority
-              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
+              style={{ width: '100%', height: 'auto' }}
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -55,7 +55,7 @@ const CardSlider = () => {
               width={622}
               height={393}
               priority
-              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
+              style={{ width: '100%', height: 'auto' }}
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -68,7 +68,7 @@ const CardSlider = () => {
               width={622}
               height={393}
               priority
-              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
+              style={{ width: '100%', height: 'auto' }}
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>
@@ -81,7 +81,7 @@ const CardSlider = () => {
               width={622}
               height={393}
               priority
-              style={{ width: '100%', height: 'auto' }} // Maintain aspect ratio
+              style={{ width: '100%', height: 'auto' }}
             />
             <p>SINC Partners invests over 200 million naira in 5 startups</p>
           </div>

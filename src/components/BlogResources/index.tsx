@@ -6,6 +6,7 @@ import secondBlogDemoVideoImg from '../../../public/assets/secondBlogDemoVideo.p
 import annualReportBookImg from '../../../public/assets/annualReportBook.png';
 import createBusinessBookImg from '../../../public/assets/createBusinessBook.png';
 import peopleBusinessImg from '../../../public/assets/peopleBusiness.png';
+import Link from 'next/link';
 
 const BlogsResources: React.FC = () => {
   const resources = [
@@ -106,9 +107,9 @@ const BlogsResources: React.FC = () => {
         ))}
       </div>
       <div className={styles.moreResources}>
-        <a href='#' className={styles.moreResourcesLink}>
+        <Link href='#' className={styles.moreResourcesLink}>
           See More Blogs & Resources →
-        </a>
+        </Link>
       </div>
     </section>
   );
