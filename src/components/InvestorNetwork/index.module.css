@@ -42,6 +42,11 @@
   border-left: none;
 }
 
+.section:last-child .stage:last-child {
+  background-color: #000;
+  color: #fff;
+}
+
 .stage:last-child {
   border-right: 0;
 }
