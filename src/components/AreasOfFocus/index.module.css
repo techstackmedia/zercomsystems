@@ -17,18 +17,13 @@
 }
 
 .grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .focusItem {
-  flex: 1;
-  min-width: 200px;
   padding: 20px;
   color: white;
-  border-radius: 8px;
   text-align: left;
 }
 

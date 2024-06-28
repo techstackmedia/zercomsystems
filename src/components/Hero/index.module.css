@@ -1,9 +1,9 @@
-/* components/Hero.module.css */
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 40px;
+  background-color: #fff;
 }
 
 .textSection {
